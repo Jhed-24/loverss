@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Screaming in fear</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<style>
+  .fog {
+    position: fixed;
+    top: -100px;
+    left: 100px;
+    width: 100%;
+    height: 100%;
+    background: url('free-printable-small-heart-template-red.png') repeat;
+    opacity: 0.1;
+    animation: drift 20s linear infinite;
+    pointer-events: none;
+    z-index: 0;
+    color: white;
+    
+  }
+</style>
+<body>
+  <div class="fog"></div>
+  <div class="content">Pwede pa ba?</div>
+  
+  <div class="candle">
+    <img id="candleImage" src="beautiful-bloom-blooming-658687.jpg" alt="Candle">
+    <button class="btn" onclick="blowCandle()">Click here...</button>
+  </div>
+  <img id="scaryImage" src="hq720.jpg" alt="Scary Fullscreen Image">
+  <audio id="scarySound" src="Scary Woman Screaming - Sound Effect (HD).mp3" preload="auto"></audio>
+
+  <div class="kurk">From: Kurk</div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
